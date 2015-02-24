@@ -1,0 +1,161 @@
+.contact-head .hsContainer {
+	height: 100vh;
+}
+.contact-head .bg {
+    background-image: url(../img/contact-head.jpg);
+}
+.touch-device .contact-head .bg {
+	background: url(../img/contact-head.jpg) no-repeat top left;
+	background-size:cover;
+	background-position: top left !important;
+}
+.contact-head .container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.contact-head h1{
+    color:#f2f2f2;
+    text-align:right;
+    margin-bottom:80px;
+	margin-left: 28%;
+}
+
+.contact-head .contact-info, .contact-head .contact-info a{
+    color:#f2f2f2;
+}
+
+.contact-head li{
+    margin-bottom:20px;
+}
+
+.contact-section{
+    padding-bottom:100px;
+    overflow:hidden;
+}
+
+.contact-section h2{
+    margin-bottom:0px;
+}
+
+.contact-info {
+	width: 50%;
+	float: right;
+	list-style: none;
+}
+.contact-info li span {
+	float: left;
+	display: block;
+	width: 120px;
+}
+
+.social-icons .desktop-white {
+	padding: 120px 0;
+}
+.social-icons .social-icon {
+	width: 142px;
+	height: 142px;
+	display: block;
+	margin: 0 auto;
+}
+.social-icons .facebook {
+	background: url('../img/facebook.png');
+}
+.social-icons .twitter {
+	background: url('../img/twitter.png');
+}
+.social-icons .pinterest {
+	background: url('../img/pinterest.png');
+}
+
+.contact-forms h2 {
+	margin: 10px 0 0;
+}
+
+.contact-forms .desktop-brown {
+	padding: 70px 0;
+}
+.contact-forms hr {
+	margin: 60px 0 70px;
+}
+.contact-forms textarea {
+	color: #f2f2f2;
+	-webkit-font-smoothing: antialiased;
+}
+.contact-forms textarea:focus {
+	outline: none;
+}
+
+
+@media only screen and (max-width: 970px) {
+	.contact-info {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.social-icons .social-icon {
+		width: 120px;
+		height: 120px;
+		background-size: 100%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.contact-head h1 {
+		text-align: left;
+		margin-left: 0;
+	}
+
+
+	.mobile-social-icons .col-third {
+		width: 30%;
+	}
+	.mobile-social-icons .col-third.col-left,
+	.mobile-social-icons .col-third.col-mid {
+		margin-right: 5%;
+	}
+	.mobile-social-icons .social-icon {
+		width: 50px;
+		height: 50px;
+		display: block;
+		margin: 0 auto;
+		background-size: 100%;
+	}
+	.mobile-social-icons .facebook {
+		background-image: url('../img/facebook-sm.png');
+	}
+	.mobile-social-icons .twitter {
+		background-image: url('../img/twitter-sm.png');
+	}
+	.mobile-social-icons .pinterest {
+		background-image: url('../img/pinterest-sm.png');
+	}
+	.mobile-contact-info {
+		list-style: none;
+		padding-left: 0;
+		margin: 0;
+	}
+	.mobile-contact-info li {
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	.mobile-contact-info li span {
+		display: block;
+		width: 100%;
+		text-transform: uppercase;
+		margin-bottom: 5px;
+		font-size: 22px;
+	}
+	.mobile-contact-info li a {
+		color: #b8a892;
+	}
+
+	.contact-forms h2 {
+		border-bottom: 0;
+		padding-bottom: 20px;
+	}
+	.contact-forms hr {
+		margin: 20px 0 25px;
+	}
+}

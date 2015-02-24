@@ -1,0 +1,211 @@
+.home-head .bg {
+    background-image: url(../img/home-banner1.jpg);
+}
+.touch-device .home-head .bg {
+	background: url(../img/home-banner1.jpg) no-repeat top right;
+	background-size:cover;
+	background-position: top right !important;
+}
+.home-head .hsContainer {
+	height: 100vh;
+}
+
+.logo {
+	max-width: 660px;
+	max-height: 338px;
+	width: 50%;
+	margin: 0 auto;
+}
+.logo img {
+	width: 100%;
+	height: auto;
+	margin-left: 10px;
+}
+
+.mission h1 {
+	margin-bottom: 15px;
+}
+
+#homewhiteparagraph{
+	width: 104%;
+	float: right;
+}
+#homewhiteparagraph p {
+	margin-bottom: 10px;
+}
+
+
+.shop-callout {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	position: relative;
+}
+.shop-callout h2 {
+	margin-left: 20%;
+	margin-top: 0;
+	float: right;
+	z-index: 1;
+	position: relative;
+}
+.shop-callout-body {
+	width: 50%;
+	float: right;
+}
+.shop-callout-img {
+	max-width: 284px;
+	max-height: 557px;
+	width: 28%;
+	position: absolute;
+	left: 60px;
+	bottom: 0;
+	z-index: 0;
+}
+
+.join-callout {
+    padding-bottom:80px;
+	position: relative;
+}
+.join-callout-body {
+	width: 60%;
+	float: left;
+}
+.join-callout hr {
+	float: left;
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	margin: 50px 0 80px;
+}
+.join-callout h2 {
+	margin-right: 25%;
+}
+.join-callout p {
+	z-index: 1;
+	position: relative;
+}
+.join-callout-img {
+	max-width: 390px;
+	max-height: 348px;
+	width: 34%;
+    background: url(../img/home-section-two-bottom.jpg) 0 0 no-repeat #b8a892;
+	position: absolute;
+	right: 40px;
+	bottom: -10px;
+	z-index: 0;
+}
+
+.logo-soup{
+    text-align:center;
+    padding:30px 0px;
+}
+
+
+
+
+.shuffle-left{
+     padding-left:72px;
+     text-align:justify;
+}
+
+.shuffle-right{
+    margin-right:68px;
+}
+
+
+
+.contact-info ul {
+    list-style-type:none;
+    margin:10px 0 0;
+    padding:0px;
+}
+
+.contact-info ul a {
+    color:#b8a892;
+    text-transform:none;
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+.contact-info ul li {
+    width:100%;
+    padding-bottom:30px;
+}
+
+.contact-info ul li .contact-info-label {
+    width:150px;
+    display:inline-block;
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1110px) {
+	.contact-info ul li .contact-info-label {
+		width: 25%;
+	}
+	.contact-info ul li {
+		font-size: 0.9em;
+	}
+}
+
+
+@media only screen and (max-width: 700px) {
+	h1 {
+		font-size: 58px;
+		line-height: 45px;
+	}
+	.mission h1 {
+		margin-bottom: 50px;
+	}
+	#homewhiteparagraph {
+		width: auto;
+	}
+
+	.shop-callout,
+	.join-callout {
+		background: none;
+	}
+	.shop-callout h2 {
+		margin-left: 0;
+		float: none;
+	}
+	.shop-callout-body,
+	.join-callout-body {
+		width: auto;
+		float: none;
+		text-align: left;
+	}
+	.shop-callout a,
+	.join-callout a {
+		width: 100%;
+		margin: 0;
+	}
+
+	.join-callout {
+		padding-top: 80px;
+	}
+	.join-callout hr {
+		display: none;
+	}
+	.shop-callout-img,
+	.join-callout-img {
+		display: none;
+	}
+
+	.contact h2 {
+		padding-bottom: 50px;
+		margin-bottom: 40px;
+		border-bottom: 2px solid #f2f2f2;
+	}
+	.contact-info ul li {
+		margin-bottom: 10px;
+	}
+	.contact-info ul li .contact-info-label {
+		width: 100%;
+		text-transform: uppercase;
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 5px;
+	}
+	.contact-info ul li a {
+		color: #f2f2f2;
+	}
+}

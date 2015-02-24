@@ -1,0 +1,166 @@
+.about-head .hsContainer {
+	height: 100vh;
+}
+.about-head .bg {
+    background-image: url(../img/about-head.jpg);
+}
+.touch-device .about-head .bg {
+	background: url(../img/about-head.jpg) no-repeat center;
+	background-size:cover;
+	background-position: center !important;
+}
+.about-head .container {
+    color:#f2f2f2;
+    padding-top: 50px;
+	padding-bottom: 100px;
+    overflow:hidden;
+}
+
+.about-head hr {
+	background-color: #f2f2f2;
+	border: none;
+	height: 2px;
+}
+
+.bignumber {
+	margin-left:40px;
+	margin-top: 0;
+    font-size: 7em; /* 180px */
+    margin-bottom:0px;
+    font-family: 'caslon_540regular';
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.about-head .col-half {
+	width: 50%;
+}
+
+.about-head p {
+    margin-bottom:30px;
+}
+
+.subtext p {
+    font-size:20px;
+}
+
+.logos img {
+	margin: 0 auto;
+	display: block;
+}
+
+.manifesto {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.manifesto .top-row {
+	margin-bottom: 30px;
+}
+
+.about-bottom {
+    background: url(../img/about-bottom.jpg) top center no-repeat;
+}
+
+.sub-section-about {
+    padding: 80px 100px;
+    font-size:20px;
+    overflow:hidden;
+    color:#f2f2f2;
+    position: absolute;
+    top: 0px;
+    left: 0;
+	right: 0;
+}
+
+.hop-team .card {
+    position:relative;
+    float:left;
+    width:33.333%;
+}
+.hop-team .card img {
+	width: 100%;
+	float: left;
+}
+
+.title {
+    padding-top:40px;
+    border-bottom:2px solid #f2f2f2;
+    padding-bottom:10px;
+    margin:0px;
+    margin-bottom:20px;
+}
+
+.content-area {
+    padding:0px 20px;
+}
+
+
+@media only screen and (max-width: 1050px) {
+	.sub-section-about {
+		padding: 50px 70px;
+	}
+	.sub-section-about h4 {
+		margin-bottom: 30px;
+	}
+	.title {
+		padding-top: 0;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.sub-section-about {
+		padding: 30px 40px;
+	}
+	.sub-section-about h4 {
+		font-size: 2em;
+	}
+}
+
+
+@media only screen and (max-width: 700px) {
+	.logos img {
+		display: none;
+	}
+
+	.manifesto h2 {
+		border-bottom: 0;
+		padding-bottom: 0;
+		margin-bottom: 10px;
+	}
+
+	.logos p {
+		margin: 0;
+	}
+
+	.hop-team {
+		padding:80px;
+	}
+	.hop-team .card {
+		float: none;
+		width: auto;
+	}
+
+	.hop-team .card img {
+		display: none;
+	}
+
+	.names {
+		position: static;
+		color:#b8a892;
+	}
+	.sub-section-about {
+		padding: 0 0 30px 0;
+		border-bottom: 2px solid #b8a892;
+		margin-bottom: 40px;
+	}
+	.names h4 {
+		margin-bottom: 40px;
+		padding-bottom: 40px;
+		border-bottom: 2px solid #b8a892;
+		font-size: 48px;
+		letter-spacing: 0;
+	}
+	.names p {
+		margin-bottom: 15px;
+		padding-bottom: 0;
+	}
+}
